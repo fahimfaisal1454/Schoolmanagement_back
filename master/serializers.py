@@ -9,7 +9,7 @@ class SectionSerializer(serializers.ModelSerializer):
         fields = ["id", "name"]
 
 
-# -------- Classes --------
+# -------- Classes --------Online
 class ClassNameSerializer(serializers.ModelSerializer):
     # accept IDs from client
     sections = serializers.PrimaryKeyRelatedField(
